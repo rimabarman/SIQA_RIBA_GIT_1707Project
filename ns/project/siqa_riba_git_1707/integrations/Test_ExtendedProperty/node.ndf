@@ -45,15 +45,29 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Rima.Barman@ibm.com</value>
-    <value name="createdDate">1784288517704</value>
-    <value name="lastModifiedDate">1784288517704</value>
+    <value name="lastModifiedBy">Rima.Barman@ibm.com</value>
+    <value name="lastModifiedDate">1784292196050</value>
     <value name="displayName">Test_ExtendedProperty</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">DADA_ExtendedProperty</value>
+          <value name="groupName">DADA_ExtendedProperty;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">maxToStringLength</value>
+          <value name="serviceName">DADA_ExtendedProperty:maxToStringLength</value>
+          <value name="displayName">maxToStringLength</value>
+          <value name="assetType">Java Service</value>
+          <null name="nsName"/>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>
